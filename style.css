@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: 'Noar Sans Regular';
-  src: url('./fonts/NoarSans-Regular.otf') format('opentype');
+  src: url('fonts/NoarSans-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
