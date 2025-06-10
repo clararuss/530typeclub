@@ -39,6 +39,11 @@ body {
   padding-top: .5rem;
 }
 
+.copy-text h2{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .secondary-page {
   max-width: 50vw;
 }
