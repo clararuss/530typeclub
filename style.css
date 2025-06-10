@@ -4,16 +4,16 @@
   /* --border-color: black; */
 }
 
-/* @font-face {
+/* /* @font-face {
   font-family: 'AsapCondensed';
   src: url('./fonts/AsapCondensed-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
-  font-family: 'AsapCondensed-Light';
-  src: url('./fonts/AsapCondensed-Light.ttf') format('truetype');
+  font-family: 'Noar Sans';
+  src: url('./fonts/NoarSans-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 } */
