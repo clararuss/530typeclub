@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 0.5rem;
+  background: white;
+  padding: 0.5rem;
+  z-index: 100;
+}
+
+.sticky-nav a {
+  padding: 0.5rem 1rem;
+  background: #e0e0e0;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+main {
+  padding: 1rem;
+}
