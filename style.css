@@ -12,11 +12,11 @@
 } */
 
 @font-face {
-  font-family: 'Noar Sans';
+  font-family: 'Noar Sans Regular', sans-serif;
   src: url('./fonts/NoarSans-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-} */
+}
 
 body {
   margin: 0;
