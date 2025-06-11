@@ -29,7 +29,7 @@ body {
 
 .wrapper {
   display: flex;
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -37,7 +37,7 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .5rem;
-  overflow: scroll;
+  overflow: visible;
 }
 
 .copy-text h2{
