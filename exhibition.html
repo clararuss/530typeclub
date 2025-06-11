@@ -29,5 +29,20 @@
   </p
 </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const currentPage = window.location.pathname;
+
+    if (currentPage.includes("exhibition.html")) {
+      const exhibitionButton = document.querySelector(".exhibition-button");
+      if (exhibitionButton) {
+        exhibitionButton.style.backgroundColor = "yellow";
+        exhibitionButton.style.color = "yellow";
+      }
+    }
+  });
+</script>
+
 </body>
 </html>

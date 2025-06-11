@@ -38,13 +38,12 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const currentPage = window.location.pathname;
-
-    // Match against filename
+    
     if (currentPage.includes("about.html")) {
       const aboutButton = document.querySelector(".about-button");
       if (aboutButton) {
         aboutButton.style.backgroundColor = "yellow";
-        aboutButton.style.color = "yellow"; // optional for contrast
+        aboutButton.style.color = "yellow";
       }
     }
   });

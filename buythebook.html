@@ -27,5 +27,20 @@
   </div>
 </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const currentPage = window.location.pathname;
+
+    if (currentPage.includes("buythebook.html")) {
+      const exhibition = document.querySelector(".book-button");
+      if (bookButton) {
+        bookButton.style.backgroundColor = "yellow";
+        bookButton.style.color = "yellow";
+      }
+    }
+  });
+</script>
+
 </body>
 </html>
