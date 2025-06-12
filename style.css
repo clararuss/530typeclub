@@ -89,6 +89,7 @@ body {
 
 .right-column {
   width:50%;
+  height: 100vh;
   background-color: black;
   padding: 1rem;
   box-sizing: border-box;
