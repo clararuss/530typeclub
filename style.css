@@ -24,6 +24,7 @@ body {
   background-color: var(--background-color);
   font-family: 'Noar Sans', 'AsapCondensed', sans-serif;
   height: 100vh;
+  letter-spacing: .5px;
   /* overflow: hidden; */
 }
 
